@@ -38,6 +38,16 @@ html {
   height: 100%;
 }
 
+/* body {
+  background-color: yellow;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: rgb(0, 0, 0);
+  color: rgb(79, 76, 76);
+} */
+
 html {
   scroll-behavior: smooth;
 }
@@ -340,6 +350,17 @@ strong {
   transition: transform 300ms linear;
 }
 
+.new-badge {
+  /* background-color: red; */
+  /* Or any other color */
+  color: white;
+  padding: 2px 5px;
+  font-weight: bold;
+  font-size: smaller;
+  margin-right: 5px;
+  /* Adjust spacing as needed */
+}
+
 .navbar span,
 h2 span,
 h4 span {
@@ -519,7 +540,7 @@ h4 span {
 }
 
 .slick-slideshow {
-  margin-top: 86px;
+  margin-top: 200px;
 }
 
 .slick-title {
@@ -825,6 +846,7 @@ button:focus:not(:focus-visible) {
 }
 
 @keyframes animate {
+
   0%,
   100% {
     border-radius: 60% 40% 40% 70% / 60% 30% 50% 40%;
@@ -849,6 +871,7 @@ button:focus:not(:focus-visible) {
 }
 
 @keyframes animate {
+
   0%,
   100% {
     border-radius: 60% 40% 40% 70% / 60% 30% 50% 40%;
@@ -1233,4 +1256,3 @@ button:focus:not(:focus-visible) {
     bottom: 0;
   }
 }
-
